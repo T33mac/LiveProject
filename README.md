@@ -119,7 +119,7 @@ render, redirect, get_object_or_404, and timezone modules:
         
 //***************************************************************************************************************************// 
 
-*As the timeframe of the project before I could link to the NOAA APIs, I plan to revisit aspects of this project*
+*As the timeframe of the project eclipsed before I could link to the NOAA APIs, I plan to revisit aspects of this project*
 
 
 
