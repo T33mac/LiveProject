@@ -102,7 +102,7 @@ render, redirect, get_object_or_404, and timezone modules:
 *These are all linked with the following views in my urls.py file:
 
 //***************************************************************************************************************************
-  urlpatterns = [
+urlpatterns = [
     path('', views.WaveHome, name='waves'),
     path('Collection/', views.index, name='listSurfType'),  # index of jerseys
     path('AddTo/', views.add_surfInfo, name='addSurfInfo'),  # index of jerseys
@@ -110,7 +110,7 @@ render, redirect, get_object_or_404, and timezone modules:
     path('Collection/<int:pk>/Update/', views.update_surfInfo, name='updateSurfInfo'),
     path('Collection/<int:pk>/Delete/', views.delete_surfInfo, name='deleteSurfInfo'),
     #path('API/', views.api_response, name='apiInfo'),
-  ]
+]
 //*************************************************************************************************************************** 
 
 *As the timeframe of the project before I could link to the NOAA APIs, I plan to revisit aspects of this project*
