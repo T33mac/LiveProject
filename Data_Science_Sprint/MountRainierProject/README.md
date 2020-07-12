@@ -1,4 +1,4 @@
-# Mount Raineer Project
+# Mount Rainier Project
 
 This project involved searching climbing data from Mount Raineer to find correlations in the data.
 In the Climb_Success_Summer file, the date needed to be converted to and integer to be properly scaled.
