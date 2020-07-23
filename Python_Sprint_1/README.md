@@ -109,8 +109,8 @@ render, redirect, get_object_or_404, and timezone modules:
 
         urlpatterns = [
             path('', views.WaveHome, name='waves'),
-            path('Collection/', views.index, name='listSurfType'),  # index of jerseys
-            path('AddTo/', views.add_surfInfo, name='addSurfInfo'),  # index of jerseys
+            path('Collection/', views.index, name='listSurfType'),  # index
+            path('AddTo/', views.add_surfInfo, name='addSurfInfo'), 
             path('Collection/<int:pk>/Details/', views.details_surfInfo, name='surfInfoDetails'),
             path('Collection/<int:pk>/Update/', views.update_surfInfo, name='updateSurfInfo'),
             path('Collection/<int:pk>/Delete/', views.delete_surfInfo, name='deleteSurfInfo'),
